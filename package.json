@@ -4,7 +4,7 @@
   "description": "JavaScript Playground",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start",
+    "start": "browser-sync start --server --files .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
